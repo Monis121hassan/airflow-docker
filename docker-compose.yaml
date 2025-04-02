@@ -17,7 +17,7 @@ x-airflow-common:
     AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
     AIRFLOW__SMTP__SMTP_PORT: '587'
     AIRFLOW__SMTP__SMTP_USER: monis121hassan@gmail.com
-    AIRFLOW__SMTP__SMTP_PASSWORD: ctxg gksu pbsv wvwu
+    AIRFLOW__SMTP__SMTP_PASSWORD: ${AIRFLOW__SMTP__SMTP_PASSWORD}
     AIRFLOW__SMTP__SMTP_MAIL_FROM: monis121hassan@gmail.com
     AIRFLOW__SMTP__SMTP_STARTTLS: 'True'
   volumes:
